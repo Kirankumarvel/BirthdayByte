@@ -4,11 +4,11 @@ import time
 
 # 🎉 Welcome Section
 
-st.balloons()
-st.markdown("""### 🎊 Woohoo! Your Birthday Surprise is Here!  🎁✨ """)
+
 st.title("🥳 Welcome to the Birthday Celebration Hub! 🎂")
 st.subheader("Let’s make your special day unforgettable with a slice of digital cake! 🍰")
-
+st.balloons()
+st.markdown("""### 🎊 Woohoo! Your Birthday Surprise is Here!  Enter your details below to get started!🎁✨ """)
 # 🌟 Collect User Info
 user_name = st.text_input("🎈 What's your name?")
 birthday_wish = st.text_input("💫 Make a wish...")
