@@ -34,3 +34,13 @@ if os.path.exists(html_file):
             st.warning("📝 Don’t forget to share your name and a wish to unlock the surprise! 💖")
 else:
     st.error("🚨 Oops! The birthday cake file seems to be missing. Check the file path and try again.")
+
+
+# 🎈 Ending Message
+st.balloons()
+st.markdown("""
+### 🎊 Woohoo! Your Birthday Surprise is Unlocked! 🎉  
+Thanks for celebrating with us, [BirthdayByte](https://birthdaybyte.streamlit.app/)!  
+Remember, every wish you make is a little spark of magic in the universe. 🌟  
+So keep dreaming big, smiling wide, and partying hard! 🥳🎂  
+""")
