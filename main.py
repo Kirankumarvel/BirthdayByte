@@ -4,7 +4,7 @@ import time
 
 # Title and introduction
 st.title("🎉 Welcome to the Birthday Cake Page! 🎂")
-st.write("Let's celebrate with a virtual birthday cake! 🎈🍰")
+st.write("Let's celebrate your virtual birthday! 🎈🍰")
 
 # Collect user's name for a personalized experience
 user_name = st.text_input("What's your name?", "")
