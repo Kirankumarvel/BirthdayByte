@@ -6,9 +6,9 @@ import time
 
 
 st.title("🥳 Welcome to the Birthday Celebration Hub! 🎂")
-st.subheader("Let’s make your special day unforgettable with a slice of digital cake! 🍰")
+st.subheader("🎊 Woohoo!")
 st.balloons()
-st.markdown("""### 🎊 Woohoo! Your Birthday Surprise is Here!  Enter your details below to get started!🎁✨ """)
+st.markdown("""Your Birthday Surprise is Here!  Enter your details below to get started!🎁✨ """)
 # 🌟 Collect User Info
 user_name = st.text_input("🎈 What's your name?")
 birthday_wish = st.text_input("💫 Make a wish...")
@@ -42,7 +42,7 @@ else:
 # 🎈 End Celebration
 st.balloons()
 st.markdown("""
-### 🎊 Woohoo! Your Birthday Surprise is Unlocked! 🎉  
+### 🎊 Woohoo! Your Birthday Surprise is Unlocked! 🎉   Let’s make your special day unforgettable with a slice of digital cake! 🍰
 Thanks for celebrating with us, [BirthdayByte](https://birthdaybyte.streamlit.app/)!  
 Remember, every wish you make is a little spark of magic in the universe. 🌟  
 So keep dreaming big, smiling wide, and partying hard! 🥳🎂  
