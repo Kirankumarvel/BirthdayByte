@@ -2,7 +2,7 @@ import webbrowser
 import os
 
 # Path to the HTML file
-html_file = 'https://github.com/Kirankumarvel/BirthdayByte/blob/main/birthday-cake.html'
+html_file = 'birthday-cake.html'
 
 # Check if the file exists
 if os.path.exists(html_file):
