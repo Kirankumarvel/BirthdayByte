@@ -1,5 +1,4 @@
 import streamlit as st
-import webbrowser
 import os
 
 # Your Streamlit app content
@@ -10,8 +9,13 @@ html_file = 'birthday-cake.html'
 
 # Check if the file exists
 if os.path.exists(html_file):
-    # Button to open the HTML file in the browser
+    # Button to render the HTML content
     if st.button('Open Birthday Cake Page'):
-        webbrowser.open('file://' + os.path.abspath(html_file))
+        # Read the HTML file
+        with open(html_file, 'r') as file:
+            html_content = file.read()
+
+        # Render HTML inside Streamlit app
+        st.components.v1.html(html_content, height=600)  # You can adjust height as needed
 else:
     st.error(f"File '{html_file}' not found.")
