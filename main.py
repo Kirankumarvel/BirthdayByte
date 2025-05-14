@@ -3,6 +3,9 @@ import os
 import time
 
 # 🎉 Welcome Section
+
+st.balloons()
+st.markdown("""### 🎊 Woohoo! Your Birthday Surprise is Here!  🎁✨ """)
 st.title("🥳 Welcome to the Birthday Celebration Hub! 🎂")
 st.subheader("Let’s make your special day unforgettable with a slice of digital cake! 🍰")
 
@@ -36,7 +39,7 @@ else:
     st.error("🚨 Oops! The birthday cake file seems to be missing. Check the file path and try again.")
 
 
-# 🎈 Ending Message
+# 🎈 End Celebration
 st.balloons()
 st.markdown("""
 ### 🎊 Woohoo! Your Birthday Surprise is Unlocked! 🎉  
